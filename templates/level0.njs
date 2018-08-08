@@ -9,6 +9,7 @@
 <#context.vowels__all.forEach(v=>{-#>
 #{c[0]}#{v[0]} 
 <#-})#>
+
 <#context.vowels__all.forEach(v=>{-#>
 #{c[1]}#{v} 
 <#-})#>
@@ -16,6 +17,7 @@
 <#context.vowels__all.forEach(v=>{-#>
 #{c[0]}#{v}#{c[0]} 
 <#-})#>
+
 <#context.vowels__all.forEach(v=>{-#>
 #{c[1]}#{v}#{c[1]} 
 <#-})#>
@@ -23,15 +25,16 @@
 <#context.vowels__all.forEach(v=>{-#>
 #{c[0]}#{v}#{c[1]}#{v} 
 <#-})#>
+
 <#context.vowels__all.forEach(v=>{-#>
 #{c[1]}#{v}#{c[0]}#{v} 
 <#-})#>
 
-<#context.vowels__all.forEach(v=>{-#>
+<#context.vowels__all.forEach(v=>{#>
 #{c[0]}#{v}-#{c[0]}#{v}-#{c[0]}#{v}-#{c[0]}#{v}#{c[1]}
 <#})#>
 
-<#context.vowels__all.forEach(v=>{-#>
+<#context.vowels__all.forEach(v=>{#>
 #{c[1]}#{v}-#{c[1]}#{v}-#{c[1]}#{v}-#{c[1]}#{v}#{c[0]}#{c[0]}#{v} 
 <#})#>
 
